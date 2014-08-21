@@ -8,6 +8,9 @@ define([
 
   var UiView = Backbone.View.extend({
 
+    //aqui es donde se introuce el elemento 
+    //si se hace dinamicamente es asi......... 
+    //http://backbonejs.org/#View-setElement 
     el: "#example_for_victor",
 
     events: {

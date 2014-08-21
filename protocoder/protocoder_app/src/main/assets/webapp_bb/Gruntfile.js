@@ -6,7 +6,7 @@ module.exports = function (grunt) {
       main: {
         files: ['src/**/*.js', 'index.html', 'src/tpl/*.html'],
         tasks: ['requirejs'],
-        options: { livereload: true }
+     //   options: { livereload: true }
       },
       styles: {
         files: 'src/styles/**/*.less',
